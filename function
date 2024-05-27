@@ -1,0 +1,129 @@
+1 Gestione delle Stringhe
+• paste(): Concatena le stringhe.
+• strsplit(): Divide una stringa in sottostringhe.
+• toupper() e tolower(): Converti stringhe in maiuscolo o minuscolo.
+• grep(): Cerca pattern in una stringa o un vettore di stringhe.
+• sub() e gsub(): Sostituisce pattern in una stringa.
+
+2 Gestione dei Vettori
+• c(): Combina valori in un vettore.
+• length(): Restituisce la lunghezza di un vettore.
+• sum(), mean(), median(), min(), max(): Calcola statistiche sui vettori.
+• sort(): Ordina i valori di un vettore.
+• rev(): Inverte l’ordine di un vettore.
+
+3 Gestione delle Liste
+• list(): Crea una lista.
+• append(): Aggiunge elementi a una lista.
+• length(): Restituisce la lunghezza di una lista.
+• names(): Restituisce o imposta i nomi degli elementi di una lista.
+
+
+4 Gestione delle Matrici
+• matrix(): Crea una matrice.
+• cbind() e rbind(): Combina vettori per formare colonne o righe di una
+matrice.
+• dim(): Restituisce le dimensioni di una matrice.
+• rowSums() e colSums(): Calcola le somme per righe o colonne di una
+matrice.
+• diag(): Estrae la diagonale principale di una matrice.
+
+5 Verifica del tipo
+• is.character(): Verifica se un oggetto `e di tipo carattere.
+• is.numeric(): Verifica se un oggetto `e di tipo numerico.
+• is.integer(): Verifica se un oggetto `e di tipo intero.
+• is.logical(): Verifica se un oggetto `e di tipo logico.
+• is.factor(): Verifica se un oggetto `e di tipo fattore.
+• is.vector(): Verifica se un oggetto `e di tipo vettore.
+• is.list(): Verifica se un oggetto `e di tipo lista.
+• is.matrix(): Verifica se un oggetto `e di tipo matrice.
+• is.data.frame(): Verifica se un oggetto `e di tipo dataframe.
+• is.array(): Verifica se un oggetto `e di tipo array.
+• is.function(): Verifica se un oggetto `e di tipo funzione.
+• typeof(): Restituisce il tipo di base di un oggetto.
+• class(): Restituisce la classe di un oggetto.
+
+6 Coercizione esplicita
+• as.character(): Coerce un oggetto in carattere.
+• as.integer(): Coerce un oggetto in intero.
+• as.logical(): Coerce un oggetto in logico.
+• as.factor(): Coerce un oggetto in fattore.
+
+• as.Date(): Coerce un oggetto in data.
+• as.list(): Coerce un oggetto in lista.
+• as.matrix(): Coerce un oggetto in matrice.
+• as.vector(): Coerce un oggetto in vettore.
+
+7 Funzioni Which
+• which(): Restituisce gli indici dei valori che soddisfano una determinata
+condizione.
+• which.min(): Restituisce l’indice del valore minimo in un vettore.
+• which.max(): Restituisce l’indice del valore massimo in un vettore.
+• row which(): Restituisce gli indici delle righe che soddisfano una condizione in una matrice o dataframe.
+• col which(): Restituisce gli indici delle colonne che soddisfano una condizione in una matrice o dataframe.
+• match(): Cerca le corrispondenze di valori tra due vettori e restituisce gli
+indici di corrispondenza.
+
+8 Gestione dei DataFrame
+• data.frame(): Crea un dataframe.
+• read.csv() e read.table(): Carica dati da file CSV o testo in un
+dataframe.
+• head() e tail(): Visualizza le prime o ultime righe di un dataframe.
+• $ e [] : Estrarre colonne o righe specifiche da un dataframe.
+• write.csv(): Esporta un dataframe su un file CSV
+
+9 Generazione casuale di numeri e vettori
+• runif(): Genera numeri casuali da una distribuzione uniforme.
+• rnorm(): Genera numeri casuali da una distribuzione normale.
+• sample(): Estrae campioni casuali da un insieme di valori.
+
+
+10 Gestione dei fattori e tabelle di frequenza
+• factor(): Crea un oggetto di tipo fattore.
+• levels(): Restituisce i livelli di un fattore.
+• table(): Crea una tabella di frequenza dei valori.
+
+11 Funzioni apply
+• apply(): Applica una funzione a righe o colonne di una matrice o dataframe.
+• lapply(), sapply(), mapply(): Applicano una funzione a elementi di
+una lista, vettore o matrice.
+
+12 Funzioni dplyr
+• filter(): Filtra righe basate su condizioni.
+• select(): Seleziona colonne specifiche.
+• mutate(): Aggiunge nuove colonne calcolate.
+• arrange(): Ordina righe in base a colonne specifiche.
+• group by(): Raggruppa i dati in base a una o pi`u colonne.
+• summarise(): Calcola statistiche di riepilogo per gruppi di dati.
+• distinct(): Restituisce solo le righe uniche di un dataframe.
+• left join(): estrae tutti i valori della tabella a sinistra (anche se non
+hanno corrispondenza nella tabella a destra)
+
+13 Funzioni ggplot2
+• ggplot(): Crea un oggetto di tipo ggplot.
+• aes(): Specifica le variabili estetiche (mapping).
+• geom point(): Aggiunge punti al grafico.
+• geom abline(): Aggiunge una linea di regressione o una linea con un’equazione specifica
+• geom bar(): Crea un grafico a barre.
+• geom histogram(): Crea un istogramma.
+
+• geom jitter(): Aggiunge jitter ai dati, utile per rendere piu’ chiari i dati
+sovrapposti.
+• geom boxplot(): Crea un boxplot.
+• geom density(): Crea un density plot.
+• labs(): Modifica le etichette degli assi e il titolo del grafico.
+• theme(): Modifica l’aspetto del grafico (tema, colori, ecc.).
+
+14 Altre Funzioni Utili
+• round(): Arrotonda i numeri al numero specificato di decimali.
+• abs(): Restituisce il valore assoluto di un numero.
+• sqrt(): Calcola la radice quadrata di un numero.
+• log(): Calcola il logaritmo naturale di un numero.
+• exp(): Calcola l’esponenziale di un numero.
+• mean(): Calcola la media dei valori in un vettore.
+• sum(): Calcola la somma dei valori in un vettore.
+• sd(): Calcola la deviazione standard dei valori in un vettore.
+• median(): Calcola la mediana dei valori in un vettore.
+• range(): Restituisce il minimo e il massimo valore di un vettore.
+• cumsum(): Calcola la somma cumulativa di un vettore.
+• cumprod(): Calcola il prodotto cumulativo di un vettore.
